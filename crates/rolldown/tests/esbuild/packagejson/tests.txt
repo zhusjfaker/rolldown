@@ -1,1 +1,15 @@
+// ---------> need for migration
 TestPackageJsonNodePathsIssue2752
+
+
+// ---------> need oxc-resolver fix or support
+TestPackageJsonBrowserIssue2002B
+TestPackageJsonExportsDefaultOverImportAndRequire
+
+
+// ---------> required can support catching specific errors
+
+
+
+// ---------> need scan log and expect warnings 
+TestCommonJSVariableInESMTypeModule
