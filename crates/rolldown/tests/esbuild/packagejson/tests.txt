@@ -3,13 +3,43 @@ TestPackageJsonNodePathsIssue2752
 
 
 // ---------> need oxc-resolver fix or support
-TestPackageJsonBrowserIssue2002B
-TestPackageJsonExportsDefaultOverImportAndRequire
+.test_package_json_browser_issue2002_b
+.test_package_json_exports_default_over_import_and_require
 
 
 // ---------> required can support catching specific errors
-
-
+.test_package_json_exports_alternatives
+.test_package_json_exports_error_invalid_module_specifier
 
 // ---------> need scan log and expect warnings 
-TestCommonJSVariableInESMTypeModule
+test_package_json_bad_main *
+.test_package_json_type_should_be_types
+.test_package_json_syntax_error_trailing_comma
+.test_package_json_syntax_error_comment
+.test_package_json_reverse_package_exports_issue3377
+.test_package_json_neutral_no_default_main_fields
+.test_package_json_main_fields_error_message_not_included
+.test_package_json_main_fields_error_message_empty
+.test_package_json_main_fields_error_message_default
+.test_package_json_imports_invalid_package_configuration
+.test_package_json_imports_error_starts_with_hash_slash
+.test_package_json_imports_error_missing_remapped_package
+.test_package_json_imports_error_equals_hash
+.test_package_json_import_self_using_require_failure *
+.test_package_json_import_self_using_import_failure
+.test_package_json_exports_reverse_lookup
+.test_package_json_exports_not_exact_missing_extension_pattern
+.test_package_json_exports_no_conditions_match
+.test_package_json_exports_must_use_require
+.test_package_json_exports_must_use_import
+.test_package_json_exports_exact_missing_extension
+.test_package_json_exports_error_unsupported_directory_import
+.test_package_json_exports_error_package_path_not_exported
+.test_package_json_exports_error_module_not_found
+.test_package_json_exports_error_missing_trailing_slash
+.test_package_json_exports_error_invalid_package_target
+.test_package_json_exports_error_invalid_package_configuration
+
+
+// ---------> res will success
+.test_package_json_subpath_import_node_builtin_issue3485
